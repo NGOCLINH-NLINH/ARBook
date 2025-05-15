@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650567af56449ab49afda738cfe3fbff, type: 3}
+  m_Name: New Dino Database
+  m_EditorClassIdentifier: 
+  dinos:
+  - dinoName: T-rex
+    infoText: "T\xEAn: Tyrannosaurus rex\nPh\xE2n l\u1EDBp: Kh\u1EE7ng long ch\xE2n
+      th\xFA (Theropoda)\r\nKi\u1EC3u \u0103n: \u0102n th\u1ECBt\r\nK\xEDch th\u01B0\u1EDBc:
+      D\xE0i kho\u1EA3ng 12 m\xE9t\r\nC\xE2n n\u1EB7ng: Kho\u1EA3ng 7 t\u1EA5n\r\nTh\u1EDDi
+      k\u1EF3 sinh s\u1ED1ng: K\u1EF7 Ph\u1EA5n Tr\u1EAFng mu\u1ED9n (kho\u1EA3ng
+      68\u201366 tri\u1EC7u n\u0103m tr\u01B0\u1EDBc)"
+    audioClip: {fileID: 8300000, guid: 835a305f9bc683443ba07f395112be9f, type: 3}
+  - dinoName: Pachy_Red
+    infoText: "T\xEAn: pachycephalosaurus\nPh\xE2n l\u1EDBp: Kh\u1EE7ng long \u0111\u1EA7u
+      v\xF2m (Pachycephalosauridae)\r\nKi\u1EC3u \u0103n: \u0102n th\u1EF1c v\u1EADt
+      (c\xF3 th\u1EC3 \u0103n t\u1EA1p)\r\nK\xEDch th\u01B0\u1EDBc: D\xE0i kho\u1EA3ng
+      3-5 m\xE9t\r\nC\xE2n n\u1EB7ng: Kho\u1EA3ng 370\u2013450 kg\r\nTh\u1EDDi k\u1EF3
+      sinh s\u1ED1ng: K\u1EF7 Ph\u1EA5n Tr\u1EAFng mu\u1ED9n (kho\u1EA3ng 69\u201366
+      tri\u1EC7u n\u0103m tr\u01B0\u1EDBc)\r"
+    audioClip: {fileID: 8300000, guid: 6a70d2a4ae90f824d88da3bc56d0f6b6, type: 3}
+  - dinoName: Pteradactyl
+    infoText: "T\xEAn: Pteradactyl\nPh\xE2n l\u1EDBp: Th\u1EB1n l\u1EB1n c\xF3 c\xE1nh
+      (Pterosauria)\r\nKi\u1EC3u \u0103n: \u0102n \u0111\u1ED9ng v\u1EADt nh\u1ECF\r\nS\u1EA3i
+      c\xE1nh: Kho\u1EA3ng 1\u20132.5 m\xE9t (t\xF9y lo\xE0i)\r\nC\xE2n n\u1EB7ng:
+      V\xE0i kg\r\nTh\u1EDDi k\u1EF3 sinh s\u1ED1ng: K\u1EF7 Jura mu\u1ED9n (kho\u1EA3ng
+      150.8-148.5 tri\u1EC7u n\u0103m tr\u01B0\u1EDBc)\r"
+    audioClip: {fileID: 8300000, guid: 649923629a03e054b973c366e8169609, type: 3}
+  - dinoName: Stega_20k
+    infoText: "T\xEAn: Stegosaurus\nPh\xE2n l\u1EDBp: Kh\u1EE7ng long gi\xE1p l\u01B0ng
+      (Armoured)\r\nKi\u1EC3u \u0103n: \u0102n th\u1EF1c v\u1EADt\r\nK\xEDch th\u01B0\u1EDBc:
+      D\xE0i kho\u1EA3ng 9 m\xE9t\r\nC\xE2n n\u1EB7ng: Kho\u1EA3ng 3\u20135 t\u1EA5n\r\nTh\u1EDDi
+      k\u1EF3 sinh s\u1ED1ng: K\u1EF7 Jura mu\u1ED9n (kho\u1EA3ng 152\u2013145 tri\u1EC7u
+      n\u0103m tr\u01B0\u1EDBc)\r\n"
+    audioClip: {fileID: 8300000, guid: 9ed62fcaa2f49014e9d47f1d94d468ad, type: 3}
+  - dinoName: Raptor_Sand
+    infoText: "T\xEAn: Velociraptor\nPh\xE2n l\u1EDBp: Kh\u1EE7ng long ch\xE2n th\xFA
+      (Theropoda)\r\nKi\u1EC3u \u0103n: \u0102n th\u1ECBt\r\nK\xEDch th\u01B0\u1EDBc:
+      D\xE0i kho\u1EA3ng 2 m\xE9t\r\nC\xE2n n\u1EB7ng: Kho\u1EA3ng 15\u201320 kg\r\nTh\u1EDDi
+      k\u1EF3 sinh s\u1ED1ng: K\u1EF7 Ph\u1EA5n Tr\u1EAFng mu\u1ED9n (kho\u1EA3ng
+      75\u201371 tri\u1EC7u n\u0103m tr\u01B0\u1EDBc)\r"
+    audioClip: {fileID: 8300000, guid: 38c00cfb4f3e27d4fbcf8acc1d318a3d, type: 3}

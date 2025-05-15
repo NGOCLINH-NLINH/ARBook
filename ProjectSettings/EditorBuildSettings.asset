@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARMain.unity
+    guid: ed2b4654405c40c4d9c9313345f9bde7
+  - enabled: 1
+    path: Assets/Scenes/DinoScence.unity
+    guid: 421e917a559eabe43aad601fe383b3ca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -44,12 +44,12 @@ public class DinoSpawner : MonoBehaviour
         if (spawnedModel == null)
         {
             spawnedModel = Instantiate(modelPrefab, transform.position, transform.rotation);
+            
+            if (DinoInfoManager.Instance != null)
+            {
+                DinoInfoManager.Instance.SetCurrentDino(modelPrefab.name);
+            }
         }
-
-        // if (DinoInfoManager.Instance != null)
-        // {
-        //     DinoInfoManager.Instance.SetCurrentDino(modelPrefab.name);
-        // }
     }
 
     private void RemoveDino()
